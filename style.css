@@ -1,0 +1,36 @@
+#grid {
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 500px;
+    max-width:920px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+    margin-top:15rem;
+    
+    
+}
+body{
+    background-color: rgb(146, 113, 146);
+}
+
+@media only screen and (max-width: 600px) {
+    #grid {
+        width: 500px; 
+        margin-top: 15rem; 
+    }}
+h2 {
+    text-align: center;
+    margin-top:5px;
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+}
+
+
+img{
+    margin:0.5px;
+    width:94.5px;
+    height:94.5px;
+}
